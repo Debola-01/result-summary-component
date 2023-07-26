@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    :root{
+    --Light-red: hsl(0, 100%, 67%);
+    --Orangey-yellow: hsl(39, 100%, 56%);
+    --Green-teal: hsl(166, 100%, 37%);
+    --Cobalt-blue: hsl(234, 85%, 45%);
+    --Light-slate-blue-background: hsl(252, 100%, 67%);
+    --Light-royal-blue-background: hsl(241, 81%, 54%);
+    --Violet-blue-circle: hsla(256, 72%, 46%, 1);
+    --Persian-blue-circle: hsla(241, 72%, 46%, 0);
+    --White: hsl(0, 0%, 100%);
+    --Pale-blue: hsl(221, 100%, 96%);
+    --Light-lavender: hsl(241, 100%, 89%);
+    --Dark-gray-blue: hsl(224, 30%, 27%);
+    }
+    body{
+    /* font-family: 'Red Hat Display', sans-serif; */
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    
+    }
+    .dope{
+        /* background: linear-gradient(to bottom,var(--Light-royal-blue-background),var(--Light-lavender));*/
+        background-image: linear-gradient( hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+        height:700px;
+        width: 520px;
+        border-radius: 5% 5% 5% 5%;
+        position: relative;
+        left: -230px;
+        bottom: -280px;
+        z-index: 5;
+        justify-content: center;
+        align-items: center;
+        display:flex ;
+        text-align: center;
+    }
+    .Cloak{
+      background-color: white;
+      height: 700px;
+      width: 520px;
+      border-radius: 5%;
+      position: relative;
+      right: -250px;
+      top: -420px;
+      /* z-index: 0; */
+      box-shadow: 40px 40px 55px hsl(221, 100%, 96%);
+    }
+    
+    
+    
+    
+    .goat {
+        background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsl(241, 72%, 46%, 0));
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        z-index: 10;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top:-10%;
+        justify-content: center;
+        font-family: 'Hanken Grotesk', sans-serif;
+        font-family: 'Red Hat Display', sans-serif;
+        
+      }
+      
+      .large-text {
+        font-size: 120px;
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Hanken Grotesk', sans-serif;
+        font-family: 'Red Hat Display', sans-serif;
+      }
+      
+      .small-text {
+        font-size: 24px;
+        font-weight: lighter;
+        color: hsl(241, 100%, 89%);
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-family: 'Hanken Grotesk', sans-serif;
+        font-family: 'Red Hat Display', sans-serif;
+      }
+      .pixel{
+        position: absolute;
+        bottom:87%;
+        font-size: 35px;
+        font-weight: 600;
+        color: hsl(221, 100%, 96%);
+        opacity: 76%;
+      }
+      
+      .funky{
+        position: absolute;
+        top:68%;
+        font-size: 40px;
+        font-weight: 700;
+        color: white;
+        
+      }
+      .fish{
+        position: absolute;
+        top:60%;
+        font-size: 24px;
+        font-weight: 300;
+        color: hsl(221, 100%, 96%);
+        opacity: 76%;
+        justify-content: center;
+        align-items: center;
+        left:90px;
+        right:80px;
+        top:540px;
+      }
+      .sub{
+        position: absolute;
+        bottom:87%;
+        font-size: 35px;
+        font-weight: 700;
+        transform: translate();
+        left: 20%;
+        color:hsl(224, 30%, 27%);
+      }
+    .red{
+      background-color:hsl(0, 100%, 67%) ;
+      height: 70px;
+      width: 400px;
+      border-radius:10px;
+      z-index: 10;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      top:-13%;
+      transform: translate();
+      left: 15%;
+      opacity: 20%;
+      
+    }
+    .icon{
+      position: relative;
+      top:-19.5%;
+      transform: translate();
+      left: 6%;
+    }
+    .one{
+      position: relative;
+      bottom:-13.5%;
+      transform: translate();
+      left: 20%;
+    }
+    .yellow{
+      background-color:hsl(39, 100%, 56%) ;
+      height: 70px;
+      width: 400px;
+      border-radius:10px;
+      z-index: 10;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      bottom: -13%;
+      transform: translate();
+      left: 15%;
+      opacity: 20%;
+    }
+    .gun{
+      position: relative;
+      top:-3.5%;
+      transform: translate();
+      left: 11%;
+    }
+    .green{
+      background-color:hsl(166, 100%, 37%);
+      height: 70px;
+      width: 400px;
+      border-radius:10px;
+      z-index: 10;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      bottom:-39%;
+      transform: translate();
+      left: 15%;
+      opacity: 20%;
+    }
+    .blue{
+      background-color:hsl(234, 85%, 45%);
+      height: 70px;
+      width: 400px;
+      border-radius:10px;
+      z-index: 10;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      bottom:-65%;
+      transform: translate();
+      left: 15%;
+      opacity: 20%;
+    }
+    .verbal{
+      position: relative;
+      bottom:-12.5%;
+      transform: translate();
+      left: 16%;
+    }
+    .visual{
+      position: relative;
+      bottom:-28.5%;
+      transform: translate();
+      left: 20%;
+    }
+    .button{
+      position: relative;
+      top:-540px;
+       left: 330px;
+       
+      width: 400px;
+      height:70px;
+      color: var(--White);
+      background-color: var(--Dark-gray-blue);
+      border-radius: 50px; 
+      border: var(--Dark-gray-blue); 
+      font-size: 23px;
+      align-items: center; 
+      justify-content: center;
+      text-align: center;
+       place-content: center; 
+      
+    }
+    .the{
+      position: relative;
+      bottom:-18px;
+      padding-bottom:1700px;
+    }
+    .text{
+      position:absolute
+    }
+    .melee{
+      position:absolute;
+      bottom: -170px;
+      right: -230px;
+      font-size: 23px;
+      font-weight: 600;
+      color: var(--Light-red);
+    }
+    .sniper{
+      position:absolute;
+      bottom: -283px;
+      right: -230px;
+      font-size: 23px;
+      font-weight: 600;
+      color: var(--Orangey-yellow)
+    }
+    .viper{
+      position:absolute;
+      bottom: -395px;
+      right: -210px;
+      font-size: 23px;
+      font-weight: 600;
+      color: var(--Green-teal);
+    }
+    .nun{
+      position:absolute;
+      bottom: -505px;
+      right: -210px;
+      font-size: 23px;
+      font-weight: 600;
+      color: var(--Cobalt-blue)
+    }
+    .score{
+      position: absolute;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      font-weight: 600;
+    }
+    .eun{
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      font-weight: 600;
+    }
+    .eighty{
+      position:absolute;
+      bottom: -45px;
+      right: -330px;
+      font-size: 23px;
+      font-weight:900;
+      color: var(--Dark-gray-blue);
+    }
+    .job{
+      position:relative;
+      bottom: -140px;
+      right: -400px;
+      font-size: 23px;
+      font-weight:900;
+      color: rgb(134, 131, 131); 
+    }
+    .ninety{
+      position:absolute;
+      bottom: -160.05px;
+      right: -330px;
+      font-size: 23px;
+      font-weight:900;
+      color: var(--Dark-gray-blue); 
+    }
+    .joby{
+      position:relative;
+      bottom: -190px;
+      right: -400px;
+      font-size: 23px;
+      font-weight:900;
+      color: rgb(134, 131, 131); 
+    }
+    .jobn{
+      position:relative;
+      bottom: -330px;
+      right: -400px;
+      font-size: 23px;
+      font-weight:900;
+      color: rgb(134, 131, 131); 
+    }
+    .jobc{
+      position:relative;
+      bottom: -380px;
+      right: -400px;
+      font-size: 23px;
+      font-weight:900;
+      color: rgb(134, 131, 131);  
+    }
+    .sixty{
+      position:absolute;
+      bottom: -267.5px;
+      right: -330px;
+      font-size: 23px;
+      font-weight:900;
+      color: var(--Dark-gray-blue); 
+    }
+    .seventy{
+      position:absolute;
+      bottom: -380px;
+      right: -330px;
+      font-size: 23px;
+      font-weight:900;
+      color: var(--Dark-gray-blue); 
+    }
